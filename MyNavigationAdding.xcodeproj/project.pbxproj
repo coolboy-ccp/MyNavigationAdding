@@ -15,6 +15,8 @@
 		008838621B842B8A0001F9CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008838611B842B8A0001F9CA /* Images.xcassets */; };
 		008838651B842B8A0001F9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008838631B842B8A0001F9CA /* LaunchScreen.xib */; };
 		008838711B842B8A0001F9CA /* MyNavigationAddingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 008838701B842B8A0001F9CA /* MyNavigationAddingTests.m */; };
+		0088387D1B842BEE0001F9CA /* UIView+MyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088387C1B842BEE0001F9CA /* UIView+MyExtension.m */; };
+		008838801B84332D0001F9CA /* MyNavBarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088387F1B84332D0001F9CA /* MyNavBarMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		0088386A1B842B8A0001F9CA /* MyNavigationAddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNavigationAddingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0088386F1B842B8A0001F9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008838701B842B8A0001F9CA /* MyNavigationAddingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationAddingTests.m; sourceTree = "<group>"; };
+		0088387B1B842BEE0001F9CA /* UIView+MyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MyExtension.h"; sourceTree = "<group>"; };
+		0088387C1B842BEE0001F9CA /* UIView+MyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MyExtension.m"; sourceTree = "<group>"; };
+		0088387E1B84332D0001F9CA /* MyNavBarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavBarMenu.h; sourceTree = "<group>"; };
+		0088387F1B84332D0001F9CA /* MyNavBarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavBarMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 		008838451B842B8A0001F9CA = {
 			isa = PBXGroup;
 			children = (
+				0088387A1B842BBB0001F9CA /* MynavBarMenu */,
 				008838501B842B8A0001F9CA /* MyNavigationAdding */,
 				0088386D1B842B8A0001F9CA /* MyNavigationAddingTests */,
 				0088384F1B842B8A0001F9CA /* Products */,
@@ -120,6 +127,17 @@
 				0088386F1B842B8A0001F9CA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0088387A1B842BBB0001F9CA /* MynavBarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0088387B1B842BEE0001F9CA /* UIView+MyExtension.h */,
+				0088387C1B842BEE0001F9CA /* UIView+MyExtension.m */,
+				0088387E1B84332D0001F9CA /* MyNavBarMenu.h */,
+				0088387F1B84332D0001F9CA /* MyNavBarMenu.m */,
+			);
+			path = MynavBarMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008838801B84332D0001F9CA /* MyNavBarMenu.m in Sources */,
+				0088387D1B842BEE0001F9CA /* UIView+MyExtension.m in Sources */,
 				0088385A1B842B8A0001F9CA /* MyNavigationAdding.xcdatamodeld in Sources */,
 				008838571B842B8A0001F9CA /* AppDelegate.m in Sources */,
 				0088385D1B842B8A0001F9CA /* ViewController.m in Sources */,
